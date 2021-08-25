@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{A8F4F731-B5FC-4961-8D53-4086EF2C1C42}|Default">
+  <MonoDevelop.Ide.ItemProperties.Weather PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Weather/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="Weather/Models/Weather.cs" Line="1" Column="1" />
+      <File FileName="Weather/Views/Shared/_Layout.cshtml" Line="6" Column="46" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Converter" expanded="True">
+            <Node name="Weather" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

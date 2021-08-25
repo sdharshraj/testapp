@@ -6074,11 +6074,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/harshraj/Projects/Converter/Weather/Weather.csproj",
+      "projectUniqueName": "/Users/harshraj/Documents/GitHub/testapp/Weather/Weather.csproj",
       "projectName": "Weather",
-      "projectPath": "/Users/harshraj/Projects/Converter/Weather/Weather.csproj",
+      "projectPath": "/Users/harshraj/Documents/GitHub/testapp/Weather/Weather.csproj",
       "packagesPath": "/Users/harshraj/.nuget/packages/",
-      "outputPath": "/Users/harshraj/Projects/Converter/Weather/obj/",
+      "outputPath": "/Users/harshraj/Documents/GitHub/testapp/Weather/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/harshraj/.config/NuGet/NuGet.Config"
