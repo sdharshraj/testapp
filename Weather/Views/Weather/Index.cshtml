@@ -1,0 +1,35 @@
+
+<h2>@ViewData["PageTitle"]</h2>
+
+@{ var weather = ViewData["WeatherData"] as Weather; }
+
+<div>
+    <h4>Temperature: @weather.Temperature</h4>
+    <h4>Weather Type: @weather.Type</h4>
+</div>
+
+@Html.TextBox("txtValue", null, new { placeholder = "Input value" })
+<input type="button" value="Start" id="btnStart" />
+
+
+
+@section Scripts {
+
+    <script>$(function () {
+            $('#btnStart').unbind('click');
+            $('#btnStart').on('click', function () {
+                $.ajax({
+                    url: "/weather/yourMethod",
+                    type: 'POST',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: 'json',
+                    data: JSON.stringify({
+                        txtValue: $("#txtValue").val()
+                    }),
+                    async: false
+                });
+            });
+        });</script>
+
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
